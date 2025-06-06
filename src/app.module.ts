@@ -16,6 +16,7 @@ TypeOrmModule.forRoot({
     password: 'UncArnNeYNmUUZyTbrtimpwiqOraxTyD',
     database: 'railway',
     entities: [__dirname + `/**/*.entity{.ts,.js}`],
+    autoLoadEntities: true,
     synchronize: true,
   }), NotificationsModule],
   controllers: [AppController],
